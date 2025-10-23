@@ -6,7 +6,7 @@ import {BrowserRouter as Router } from 'react-router-dom';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Router basename='/aztec-landing-website'>
+    <Router basename='/aztec-landing-website/'>
       <App />
     </Router>
   </StrictMode>
